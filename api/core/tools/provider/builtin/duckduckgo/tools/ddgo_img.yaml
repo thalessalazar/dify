@@ -8,6 +8,7 @@ description:
   human:
     en_US: Perform image searches on DuckDuckGo and get results.
     zh_Hans: 在 DuckDuckGo 上进行图片搜索并获取结果。
+    pt_br: 
   llm: Perform image searches on DuckDuckGo and get results.
 parameters:
   - name: query

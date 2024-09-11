@@ -8,6 +8,7 @@ description:
   human:
     en_US: Use the anonymous private chat provided by DuckDuckGo.
     zh_Hans: 使用DuckDuckGo提供的匿名私密聊天。
+    pt_BR: Use um chat anônimo privado fornecido pela DuckDuckGo.
   llm: Use the anonymous private chat provided by DuckDuckGo.
 parameters:
   - name: query
@@ -16,9 +17,11 @@ parameters:
     label:
       en_US: Chat Content
       zh_Hans: 聊天内容
+      pt_BR: Conteúdo do Chat
     human_description:
       en_US: The chat content.
       zh_Hans: 要聊天的内容。
+      pt_BR: O conteúdo do chat
     llm_description: Key words for chat
     form: llm
   - name: model
@@ -41,7 +44,9 @@ parameters:
     label:
       en_US: Choose Model
       zh_Hans: 选择模型
+      pt_BR: Escolha o Modelo
     human_description:
       en_US: used to select the model for AI chat.
       zh_Hans: 用于选择使用AI聊天的模型
+      pt_BR: usado para selecionar o modelo do chat com IA.
     form: form
